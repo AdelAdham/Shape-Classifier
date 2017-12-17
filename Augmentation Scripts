@@ -1,0 +1,32 @@
+======================One version of each type
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Diamond_TS fliph flipv noise_0.05 rot_-70 trans_50_-50 zoom_0_50_300_150 blur_3.0
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Ellipse_TS fliph flipv noise_0.05 rot_-70 trans_50_-50 zoom_0_50_300_150 blur_3.0
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Line_TS fliph flipv noise_0.05 rot_-70 trans_50_-50 zoom_0_50_300_150 blur_3.0
+
+======================Noise and Rotation
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Diamond_TS rot_85,noise_0.09
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Ellipse_TS rot_85,noise_0.09
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Line_TS rot_85,noise_0.09
+
+======================Blur and Translation
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Diamond_TS blur_6.0,trans_-20_50
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Ellipse_TS blur_6.0,trans_-20_50
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Line_TS blur_6.0,trans_-20_50
+
+======================Zoom and vFlip
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Diamond_TS zoom_0_70_350_200,flipv
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Ellipse_TS zoom_0_70_350_200,flipv
+
+python main.py /home/adeladham/SAss/Shape-Classifier/Line_TS zoom_0_70_350_200,flipv
+
